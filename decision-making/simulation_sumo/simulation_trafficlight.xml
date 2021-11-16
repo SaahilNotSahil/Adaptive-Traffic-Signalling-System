@@ -1,0 +1,42 @@
+<!-- <additionals>
+    <tlLogic id="gneJ0" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGrGrrGGrGrr"/>
+        <phase duration="3"  state="yyryrryyryrr"/>
+        <phase duration="20" state="GGGGrrGrrGrr"/>
+        <phase duration="3"  state="yyyyrryrryrr"/>
+        <phase duration="20" state="GrrGGGGrrGrr"/>
+        <phase duration="3"  state="yrryyyyrryrr"/>
+        <phase duration="30" state="GrrGGrGrrGGr"/>
+        <phase duration="3"  state="yrryyryrryrr"/>
+        <phase duration="20" state="GrrGrrGGGGrr"/>
+        <phase duration="3"  state="yrryrryyyyrr"/>
+        <phase duration="20" state="GrrGrrGrrGGG"/>
+        <phase duration="3"  state="yrryrryrryyy"/>
+    </tlLogic>
+
+</additionals> -->
+<additionals>
+    <tlLogic id="gneJ0" type="actuated" programID="0" offset="0">
+        <phase duration="13" state="GGGrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="yyyrrrrrrrrr"/>
+        <phase duration="10"  state="rrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <tlLogic id="gneJ0" type="actuated" programID="1" offset="0">
+        <phase duration="15" state="rrrGGGrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rrryyyrrrrrr"/>
+        <phase duration="10"  state="rrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <tlLogic id="gneJ0" type="actuated" programID="2" offset="0">
+        <phase duration="15" state="rrrrrrGGGrrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rrrrrryyyrrr"/>
+        <phase duration="10"  state="rrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <tlLogic id="gneJ0" type="actuated" programID="3" offset="0">
+        <phase duration="15" state="rrrrrrrrrGGG" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rrrrrrrrryyy"/>
+        <phase duration="10"  state="rrrrrrrrrrrr"/>
+    </tlLogic>
+</additionals>
